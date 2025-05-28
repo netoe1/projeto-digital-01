@@ -25,6 +25,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <lib desc="file#comparador.circ" name="8"/>
   <lib desc="file#mux 4-1 (4 bits).circ" name="9"/>
   <lib desc="file#multiplicador.circ" name="10"/>
+  <lib desc="file#subtrator.circ" name="11"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -63,75 +64,87 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val="ULA"/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(290,110)" to="(350,110)"/>
-    <wire from="(290,110)" to="(290,180)"/>
+    <wire from="(690,250)" to="(690,260)"/>
+    <wire from="(600,280)" to="(600,290)"/>
     <wire from="(640,280)" to="(640,420)"/>
-    <wire from="(230,240)" to="(230,260)"/>
-    <wire from="(240,230)" to="(240,250)"/>
-    <wire from="(370,100)" to="(370,310)"/>
-    <wire from="(270,100)" to="(370,100)"/>
-    <wire from="(350,110)" to="(350,330)"/>
+    <wire from="(270,120)" to="(450,120)"/>
+    <wire from="(470,130)" to="(520,130)"/>
+    <wire from="(470,230)" to="(520,230)"/>
+    <wire from="(470,290)" to="(520,290)"/>
+    <wire from="(550,180)" to="(590,180)"/>
+    <wire from="(560,390)" to="(600,390)"/>
+    <wire from="(550,240)" to="(590,240)"/>
     <wire from="(230,200)" to="(270,200)"/>
     <wire from="(230,220)" to="(270,220)"/>
-    <wire from="(230,190)" to="(270,190)"/>
-    <wire from="(230,210)" to="(270,210)"/>
     <wire from="(280,420)" to="(640,420)"/>
-    <wire from="(350,110)" to="(440,110)"/>
-    <wire from="(270,100)" to="(270,140)"/>
-    <wire from="(450,100)" to="(450,140)"/>
+    <wire from="(570,320)" to="(590,320)"/>
+    <wire from="(600,240)" to="(630,240)"/>
+    <wire from="(450,150)" to="(450,190)"/>
     <wire from="(230,180)" to="(250,180)"/>
     <wire from="(230,160)" to="(250,160)"/>
     <wire from="(230,260)" to="(250,260)"/>
-    <wire from="(230,170)" to="(250,170)"/>
-    <wire from="(230,150)" to="(250,150)"/>
-    <wire from="(440,160)" to="(450,160)"/>
     <wire from="(280,240)" to="(280,420)"/>
-    <wire from="(270,240)" to="(280,240)"/>
-    <wire from="(440,110)" to="(440,160)"/>
     <wire from="(230,230)" to="(240,230)"/>
     <wire from="(220,240)" to="(230,240)"/>
+    <wire from="(470,130)" to="(470,180)"/>
+    <wire from="(290,130)" to="(290,180)"/>
+    <wire from="(450,190)" to="(450,250)"/>
+    <wire from="(590,270)" to="(590,320)"/>
+    <wire from="(470,230)" to="(470,290)"/>
+    <wire from="(450,320)" to="(520,320)"/>
+    <wire from="(600,280)" to="(610,280)"/>
+    <wire from="(600,300)" to="(610,300)"/>
+    <wire from="(590,230)" to="(600,230)"/>
+    <wire from="(450,250)" to="(450,320)"/>
+    <wire from="(600,290)" to="(600,300)"/>
+    <wire from="(600,230)" to="(600,240)"/>
+    <wire from="(590,240)" to="(590,250)"/>
+    <wire from="(560,130)" to="(610,130)"/>
+    <wire from="(290,130)" to="(470,130)"/>
+    <wire from="(470,180)" to="(520,180)"/>
+    <wire from="(270,120)" to="(270,140)"/>
+    <wire from="(590,250)" to="(630,250)"/>
+    <wire from="(600,300)" to="(600,390)"/>
+    <wire from="(230,240)" to="(230,260)"/>
+    <wire from="(240,230)" to="(240,250)"/>
+    <wire from="(450,120)" to="(450,150)"/>
+    <wire from="(230,190)" to="(270,190)"/>
+    <wire from="(230,210)" to="(270,210)"/>
+    <wire from="(610,230)" to="(630,230)"/>
+    <wire from="(590,270)" to="(610,270)"/>
+    <wire from="(690,260)" to="(720,260)"/>
+    <wire from="(660,250)" to="(690,250)"/>
+    <wire from="(610,130)" to="(610,230)"/>
+    <wire from="(230,170)" to="(250,170)"/>
+    <wire from="(230,150)" to="(250,150)"/>
+    <wire from="(270,240)" to="(280,240)"/>
     <wire from="(240,250)" to="(250,250)"/>
-    <wire from="(370,100)" to="(450,100)"/>
-    <comp lib="6" loc="(663,60)" name="Text">
-      <a name="text" val="01  - SUB - 01"/>
-    </comp>
-    <comp lib="9" loc="(660,250)" name="main"/>
-    <comp lib="6" loc="(865,35)" name="Text">
-      <a name="text" val="Estrutura Código:"/>
-    </comp>
-    <comp lib="6" loc="(662,43)" name="Text">
-      <a name="text" val="00 - ADD - 00"/>
-    </comp>
-    <comp lib="0" loc="(210,250)" name="Splitter">
-      <a name="fanout" val="10"/>
-      <a name="incoming" val="10"/>
-    </comp>
-    <comp lib="6" loc="(664,78)" name="Text">
-      <a name="text" val="02 - MULT - 10"/>
-    </comp>
-    <comp lib="8" loc="(400,330)" name="COMPARADOR"/>
-    <comp lib="0" loc="(270,140)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
+    <wire from="(470,180)" to="(470,230)"/>
+    <wire from="(590,180)" to="(590,230)"/>
+    <wire from="(450,150)" to="(520,150)"/>
+    <wire from="(450,250)" to="(520,250)"/>
+    <wire from="(450,190)" to="(520,190)"/>
+    <wire from="(600,290)" to="(610,290)"/>
+    <comp lib="8" loc="(520,290)" name="COMPARADOR"/>
+    <comp lib="10" loc="(550,230)" name="MULTIPLICADOR"/>
     <comp lib="0" loc="(270,240)" name="Splitter">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="0" loc="(290,180)" name="Splitter">
+    <comp lib="6" loc="(663,60)" name="Text">
+      <a name="text" val="01  - SUB - 01"/>
+    </comp>
+    <comp lib="7" loc="(560,130)" name="SOMADOR"/>
+    <comp lib="6" loc="(877,52)" name="Text">
+      <a name="text" val="&lt;opcode&gt; - imediatoA - imediatoB"/>
+    </comp>
+    <comp lib="11" loc="(550,180)" name="SUBTRATOR"/>
+    <comp lib="0" loc="(630,260)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="0" loc="(740,250)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="label" val="SAÍDA"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(653,17)" name="Text">
-      <a name="text" val="Opcodes - Operação:"/>
+    <comp lib="6" loc="(865,35)" name="Text">
+      <a name="text" val="Estrutura Código:"/>
     </comp>
     <comp lib="6" loc="(667,95)" name="Text">
       <a name="text" val="03 - COMP - 11"/>
@@ -141,9 +154,43 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="Código"/>
     </comp>
-    <comp lib="10" loc="(460,240)" name="MULTIPLICADOR"/>
-    <comp lib="6" loc="(877,52)" name="Text">
-      <a name="text" val="&lt;opcode(2)&gt; - imediato(4) - imediato(4)"/>
+    <comp lib="6" loc="(664,78)" name="Text">
+      <a name="text" val="02 - MULT - 10"/>
+    </comp>
+    <comp lib="6" loc="(662,43)" name="Text">
+      <a name="text" val="00 - ADD - 00"/>
+    </comp>
+    <comp lib="6" loc="(653,17)" name="Text">
+      <a name="text" val="Opcodes - Operação:"/>
+    </comp>
+    <comp lib="9" loc="(660,250)" name="main"/>
+    <comp lib="0" loc="(210,250)" name="Splitter">
+      <a name="fanout" val="10"/>
+      <a name="incoming" val="10"/>
+    </comp>
+    <comp lib="0" loc="(560,390)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(270,140)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(720,260)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="OUT"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(290,180)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="6" loc="(873,71)" name="Text">
+      <a name="text" val="2 BITS - 4 BITS - 4 BITS"/>
     </comp>
   </circuit>
 </project>
