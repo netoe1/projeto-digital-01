@@ -125,57 +125,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(450,250)" to="(520,250)"/>
     <wire from="(450,190)" to="(520,190)"/>
     <wire from="(600,290)" to="(610,290)"/>
-    <comp lib="8" loc="(520,290)" name="COMPARADOR"/>
-    <comp lib="10" loc="(550,230)" name="MULTIPLICADOR"/>
     <comp lib="0" loc="(270,240)" name="Splitter">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="6" loc="(663,60)" name="Text">
-      <a name="text" val="01  - SUB - 01"/>
+    <comp lib="6" loc="(431,91)" name="Text">
+      <a name="text" val="03 - COMP - 11"/>
     </comp>
-    <comp lib="7" loc="(560,130)" name="SOMADOR"/>
-    <comp lib="6" loc="(877,52)" name="Text">
-      <a name="text" val="&lt;opcode&gt; - imediatoA - imediatoB"/>
-    </comp>
-    <comp lib="11" loc="(550,180)" name="SUBTRATOR"/>
+    <comp lib="10" loc="(550,230)" name="MULTIPLICADOR"/>
     <comp lib="0" loc="(630,260)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="6" loc="(865,35)" name="Text">
-      <a name="text" val="Estrutura Código:"/>
-    </comp>
-    <comp lib="6" loc="(667,95)" name="Text">
-      <a name="text" val="03 - COMP - 11"/>
-    </comp>
-    <comp lib="0" loc="(210,250)" name="Pin">
-      <a name="width" val="10"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Código"/>
-    </comp>
-    <comp lib="6" loc="(664,78)" name="Text">
+    <comp lib="6" loc="(429,78)" name="Text">
       <a name="text" val="02 - MULT - 10"/>
     </comp>
-    <comp lib="6" loc="(662,43)" name="Text">
-      <a name="text" val="00 - ADD - 00"/>
-    </comp>
-    <comp lib="6" loc="(653,17)" name="Text">
-      <a name="text" val="Opcodes - Operação:"/>
-    </comp>
+    <comp lib="8" loc="(520,290)" name="COMPARADOR"/>
     <comp lib="9" loc="(660,250)" name="main"/>
-    <comp lib="0" loc="(210,250)" name="Splitter">
-      <a name="fanout" val="10"/>
-      <a name="incoming" val="10"/>
-    </comp>
-    <comp lib="0" loc="(560,390)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(270,140)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
     <comp lib="0" loc="(720,260)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -184,13 +150,47 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="OUT"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="6" loc="(442,31)" name="Text">
+      <a name="text" val="Opcodes - Operação:"/>
+    </comp>
+    <comp lib="7" loc="(560,130)" name="SOMADOR"/>
+    <comp lib="0" loc="(270,140)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="6" loc="(428,65)" name="Text">
+      <a name="text" val="01  - SUB - 01"/>
+    </comp>
+    <comp lib="6" loc="(629,55)" name="Text">
+      <a name="text" val="Estrutura Código:"/>
+    </comp>
+    <comp lib="6" loc="(641,70)" name="Text">
+      <a name="text" val="&lt;opcode&gt; - imediatoA - imediatoB"/>
+    </comp>
+    <comp lib="0" loc="(210,250)" name="Pin">
+      <a name="width" val="10"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Código"/>
+    </comp>
+    <comp lib="0" loc="(210,250)" name="Splitter">
+      <a name="fanout" val="10"/>
+      <a name="incoming" val="10"/>
+    </comp>
+    <comp lib="11" loc="(550,180)" name="SUBTRATOR"/>
+    <comp lib="6" loc="(637,96)" name="Text">
+      <a name="text" val="2 BITS - 4 BITS - 4 BITS"/>
+    </comp>
+    <comp lib="0" loc="(560,390)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(290,180)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="6" loc="(873,71)" name="Text">
-      <a name="text" val="2 BITS - 4 BITS - 4 BITS"/>
+    <comp lib="6" loc="(426,52)" name="Text">
+      <a name="text" val="00 - ADD - 00"/>
     </comp>
   </circuit>
 </project>
